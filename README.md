@@ -1,7 +1,7 @@
 # blog
 Vedant Soni
 IIT2023234
-
+#This repo can also be reached through my portfolio.
 How to run this blog succesfully:
 
 1> Download this Repo.
