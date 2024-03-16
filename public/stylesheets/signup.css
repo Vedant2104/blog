@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color:#ECE3CE;
+}
+.container{
+    height: 70vh;
+    width: 40vw;
+}
+.card{
+    
+    margin-left:-50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #3A4D39;
+    height: 100%;
+    width: 80%;
+    box-shadow: 0px 10px 58px -20px #739072;
+}
+form{
+    width:80%;
+    height:90%;
+}
+.input{
+    padding: 15px;
+    width: 100%;
+    
+    background: transparent;
+    border: 2px #3A4D39 solid;
+    margin:15px;
+    font-size: 1.25rem;
+    outline: none;
+}
+
+.heading{
+    margin-top: 2vmin;
+    width:100%;
+    color: #3A4D39;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom:10px;
+}
+
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vmin;
+}
+.password{
+    width: 100%;
+}
+#pass{
+    margin-left: 8vmin;
+    text-align: left;
+    font-size:  16px ;
+}
+#pass a{
+    text-decoration: none;
+    color:#739072 ;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 3vmin;
+}
+.btn{
+    padding: 1.5vmin 3vmin;
+    background-color: #739072;
+    border: none;
+    border-radius: 0.5vmin;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #739072;
+    scale: 110%;
+}
+.btn2{
+    background-color: #ECE3CE;
+    color: #3A4D39 ;
+}
+.btn1{
+    background-color: #739072;
+    color: #3A4D39;
+}
+
+

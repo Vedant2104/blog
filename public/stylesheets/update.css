@@ -1,0 +1,49 @@
+
+.delete, .update, #yes, #no{
+    cursor: pointer;
+    padding:10px 20px;
+    background-color: #739072;
+    color:#ECE3CE;
+    margin-bottom:10px;
+}
+#prompt{
+    text-align: center;
+    background-color: #16181652;
+    width:40vw;
+    position: absolute;
+    top:50%;
+    border-radius: 5px;
+    padding:30px;
+    left:calc(50% - 20vw);
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#confirm{
+    padding:40px;
+    color:#ECE3CE;
+}
+#prompt div{
+    width:100%;
+}
+#updated{
+    flex-direction: column;
+    justify-content: start;
+}
+#updated-title, #updated-content{
+    display: none;
+    resize: none;
+    font-size: 1.25rem;
+    margin:10px 0px;
+    width:100%;
+    padding: 10px;
+}
+#updated-content{
+    height: 35vh;
+}
+#button{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
